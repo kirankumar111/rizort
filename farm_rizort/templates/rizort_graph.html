@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+    $(document).ready(function(){
+    });
+    </script>
+
+</head>
+<body>
+<fieldset>
+    <br>
+    <div class="span12 pagination-centered" id="form_message">
+        Add Nodes
+    </div>
+    <div class="tab-pane active" id="new_node" style="">
+        <a name="new_node"></a>
+        <form method="POST" class="form">{% csrf_token %}
+           {{node_form}}
+           <p><input type="submit" value="Add"></p>
+        </form>
+    </div>
+</fieldset>
+</body>
+</html>
