@@ -5,7 +5,6 @@ Add the folder
 At the location where manage.py file is there, run the command python manage.py runserver command.
 
 
-# What i have completed due to time contraints:
 # BACKEND : 
 Created models,views and basic templates to add nodes and user based links.
 Backend database in sql3lite is created for nodes
