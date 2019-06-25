@@ -10,5 +10,4 @@ At the location where manage.py file is there, run the command python manage.py 
 Created models,views and basic templates to add nodes and user based links.
 Backend database in sql3lite is created for nodes
 # FRONTEND :
-Framwork used(Front-end) : D3.js(learned a bit to write as never used before)
-Frontend visualization is not completed.
+Framwork used(Front-end) : D3.js
